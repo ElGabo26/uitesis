@@ -1,0 +1,39 @@
+@import "~/src/scss/index.scss";
+
+.ui.menu.laymenu {
+  
+
+  
+  .header{
+    display: flex;
+    align-items: center;
+    justify-items:center;
+    width: auto;
+    font-size: auto;
+    font-weight: bolder;
+    color: aliceblue;
+    border-left: solid $labels 5px;
+    
+    
+    
+  }  
+    
+  > .item {
+    padding-right: 0%;
+    border-left: solid black 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 18vw;
+    color:black;
+    background-color: $labels;
+    font-size: auto;
+    font-weight: bolder;
+
+    &:hover,
+    &.active,
+    &.active:hover {
+      background-color: $warning;
+    }
+  }
+}

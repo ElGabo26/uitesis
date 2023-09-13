@@ -1,0 +1,10 @@
+.patient-form{
+    
+    &__msg{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:green;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,11 @@
+@import "~/src/scss/index.scss";
+
+.register_form{
+    &__error{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color: red;
+        font-weight: bold;
+    };
+};

@@ -1,0 +1,14 @@
+.list-cardio{
+    height: calc(100vh - 33vh) ;
+    overflow-y: scroll;
+
+    .paginas{
+        display: flex;
+        justify-content: center;
+        .ui.pagination .active.item{
+            background-color: rgb(59, 59, 59);
+            color: white;
+            font-weight: bold;
+        }
+    }
+}

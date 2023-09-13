@@ -1,0 +1,31 @@
+@import "~/src/scss/index.scss";
+
+.home{
+    background-color: $back_ground;
+    height: 100vh;
+    width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__right{
+    justify-content: center;
+    position: fixed;
+    top: 5px;
+    right:5px;
+  }
+  &__menu{
+    display:flex;
+    background-color: $labels;
+    border-radius: 30px 0 30px 0px;
+    border: solid 4px;
+    border-color: rgb(52, 52, 97);
+
+    .ui.button{
+        width: 50vw;
+        height: 20vh;
+        margin-top: 20px;
+       
+        
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.cardio-info{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 2px solid gray;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    &__text{
+        
+        font-size: medium;
+    }
+
+
+    &__buttons{
+    .ui.icon.button{
+        background-color: rgb(4, 32, 80);
+        i.icon.eye:before{
+            color:white
+        }
+    }
+}
+}

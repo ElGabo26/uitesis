@@ -1,0 +1,56 @@
+@import "~/src/scss/index.scss";
+$informationH:calc(100vh - 20vh);
+
+.informacion {
+    height:$informationH ;
+    width: auto;
+    background-color: $back_files;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: 0 2px 4px rgba(7, 7, 7, 0.1);
+
+    h2{
+      display: flex;
+      justify-content: center;
+      background-color: rgb(202, 110, 241);
+      border-radius: 10px 10px 0px 0px;
+    }
+
+    .informacion-1{
+      height:calc($informationH - 5vh) ;
+      display: flex;
+      justify-content: space-between;
+  
+      
+    .patient-details {
+        padding-left: 10px;
+        display: grid;
+        
+        grid-template-rows:1fr,1fr,1fr,1fr,1fr;
+        font-size: larger;
+        
+      
+  
+      p {
+        display: flex;
+        justify-content:left;
+        margin: 5px 0;
+      }
+  
+      strong {
+        font-weight: bold;
+      }
+
+      
+    }
+
+    .patient-butoms{
+      height: min-content;
+      width: min-content;
+      display:grid;
+      grid-template-rows: repeat(2,1fr);
+      gap: 5px;
+    }
+
+  }
+}
+  

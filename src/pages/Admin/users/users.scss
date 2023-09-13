@@ -1,0 +1,21 @@
+@import "~/src/scss/index.scss";
+.users-page{
+    .ui.secondary.menu .item{
+        background-color: gray;
+        border: 1px solid lightgray ;
+        
+    }
+    .ui.secondary.menu .active.item {
+        border:0;
+        background-color: $labels;
+        color:white;
+        font-weight: bold;
+        
+    }
+
+    &__add{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2vh;
+    }
+}
